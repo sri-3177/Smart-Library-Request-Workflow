@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Default admin role</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>nsept2d+7qOHSVHpXG7f3kUoWLCgRsctRruoB9PTHPo=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_2120194_smart_0.admin</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-05 13:05:02</sys_created_on>
+        <sys_id>9380e3c72fb5471001231d707fa4e33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2120194_smart_0.admin</sys_name>
+        <sys_package display_value="Smart Library Request Workflow" source="x_2120194_smart_0">cb80a3c72fb5471001231d707fa4e3cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Library Request Workflow">cb80a3c72fb5471001231d707fa4e3cb</sys_scope>
+        <sys_update_name>sys_user_role_9380e3c72fb5471001231d707fa4e33e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-05 13:05:02</sys_updated_on>
+    </sys_user_role>
+</record_update>

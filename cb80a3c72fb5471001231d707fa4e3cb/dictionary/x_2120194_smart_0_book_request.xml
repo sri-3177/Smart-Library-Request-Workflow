@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="47d6a7072ff5471001231d707fa4e383" label="Book Request" max_length="40" name="x_2120194_smart_0_book_request" type="collection">
+        <element label="Request Date" max_length="40" name="request_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Returned" sequence="4" value="returned"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Issued" sequence="3" value="issued"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+            </choice>
+        </element>
+        <element label="Student" max_length="40" name="student" type="string"/>
+        <element label="Book" max_length="32" name="book" reference="x_2120194_smart_0_library_book" type="reference"/>
+        <index name="index">
+            <element name="book"/>
+        </index>
+    </element>
+</database>

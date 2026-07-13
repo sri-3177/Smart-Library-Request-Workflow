@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b312678b2fb5471001231d707fa4e3a7" label="Library Book" max_length="40" name="x_2120194_smart_0_library_book" type="collection">
+        <element label="Author" max_length="40" name="author" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="ISBN" max_length="40" name="isbn" type="string"/>
+        <element label="Publisher" max_length="40" name="publisher" type="string"/>
+        <element label="Available Copies" max_length="40" name="available_copies" type="string"/>
+        <element label="Total Copies" max_length="40" name="total_copies" type="integer"/>
+        <element choice="1" label="Availability Status" max_length="40" name="availability_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unavailable" sequence="3" value="unavailable"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Issued" sequence="1" value="issued"/>
+                <element inactive_on_update="false" label="Reserved" sequence="2" value="reserved"/>
+            </choice>
+        </element>
+        <element label="Category" max_length="40" name="category" type="string"/>
+        <element display="true" label="Title" max_length="40" name="title" type="string"/>
+    </element>
+</database>
